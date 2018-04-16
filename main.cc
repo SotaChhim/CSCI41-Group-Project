@@ -22,7 +22,7 @@ string board[y_size*x_size];
 int tot_energy = 0;
 
 unordered_set <string> atomlist = {"H","C","O","Cl","F","N"};
-unordered_map<pair<string,string>,molecule,boost::hash<pair<string,string>>> allmol({{h2o.get_pair(),h2o},{h2.get_pair(),h2},{o2.get_pair(),o2}});
+unordered_map<pair<string,string>,molecule,boost::hash<pair<string,string>>> allmol({{h2o.get_pair(),h2o},{h2.get_pair(),h2},{o2.get_pair(),o2},{c2.get_pair(),c2},{ch.get_pair(),ch},{c2h.get_pair(),c2h},{co2.get_pair(),co2}});
 priority_queue <molecule> avmol;
 
 
