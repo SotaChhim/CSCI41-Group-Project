@@ -30,6 +30,6 @@ class molecule{
 		energy = energy1;
 		message = newmessage;
 	}
-}h2("H2","H","H",432,"Hydrogen Bond Formed"),h2o("H2O","H2","O",459,"Water Created"),o2("O2","O","O",142,"Oxygen Bond Formed"); 
+}h2("H2","H","H",436,"Hydrogen Bond Formed"),h2o("H2O","H2","O",459,"Water Created"),o2("O2","O","O",146,"Oxygen Bond Formed"),c2("C2","C","C",348,"Carbon Bond Formed"),ch("CH","C","H",413,"Ethynyl Created"),c2h("C2H","C2","H",446,"Ethynyl Radical Created"/*place holder energy*/co2("CO2","C","O2",414,"Carbond Dioxide Createrd"); 
 
 
